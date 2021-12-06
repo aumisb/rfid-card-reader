@@ -1,0 +1,14 @@
+kodi:
+  host: pearl.local.lan
+  port: 8080
+  protocol: http
+
+reader:
+  path: "/dev/input/event3"
+  # path: /dev/rfid-reader
+
+albums:
+  db: '/root/magic-cards-reader/albums.csv'
+
+tv:
+  db: '/root/magic-cards-reader/tv.csv'
